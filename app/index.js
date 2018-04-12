@@ -15,5 +15,7 @@ app.use(express.static('public'));
 app.get('', function(req,res)  {
     res.render('home');
 });
-
+app.get('/play', function(req,res)  {
+    res.render('game');
+});
 app.listen(config.defaultPort, () => console.log('Server listening on port ' + config.defaultPort));
