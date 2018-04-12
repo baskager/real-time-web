@@ -1,0 +1,26 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A multiplayer tic-tac-toe webapp using express and sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baskager/real-time-web.git"
+  },
+  "keywords": [
+    "tic-tac-toe"
+  ],
+  "author": "Bas Kager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baskager/real-time-web/issues"
+  },
+  "homepage": "https://github.com/baskager/real-time-web#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
